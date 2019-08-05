@@ -35,6 +35,9 @@ MySecondTest
     
 MyThirdTest
     Log    This is my 3rd Test Set    
+    
+MyFourthTest
+    Log    This is my 4th Test Set 
 
 
 # TC_001_Login_Test
