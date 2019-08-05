@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190805 15:22:34.623" generator="Robot 3.1.2 (Python 2.7.14 on win32)">
+<suite source="C:\eclipse\Praveen\RobotProject1\test\TestSuite1.robot" id="s1" name="TestSuite1">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Suite Testup</arg>
+</arguments>
+<msg timestamp="20190805 15:22:34.953" level="INFO">I am inside Test Suite Testup</msg>
+<status status="PASS" endtime="20190805 15:22:34.953" starttime="20190805 15:22:34.952"></status>
+</kw>
+<test id="s1-t1" name="MyFirstTest">
+<kw type="setup" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20190805 15:22:34.954" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" endtime="20190805 15:22:34.955" starttime="20190805 15:22:34.954"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is my 1st Test Set</arg>
+</arguments>
+<msg timestamp="20190805 15:22:34.955" level="INFO">This is my 1st Test Set</msg>
+<status status="PASS" endtime="20190805 15:22:34.955" starttime="20190805 15:22:34.955"></status>
+</kw>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Tear down</arg>
+</arguments>
+<msg timestamp="20190805 15:22:34.956" level="INFO">I am inside Tear down</msg>
+<status status="PASS" endtime="20190805 15:22:34.956" starttime="20190805 15:22:34.955"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20190805 15:22:34.956" critical="yes" starttime="20190805 15:22:34.953"></status>
+</test>
+<kw type="teardown" name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Suite Teardown</arg>
+</arguments>
+<msg timestamp="20190805 15:22:34.957" level="INFO">I am inside Test Suite Teardown</msg>
+<status status="PASS" endtime="20190805 15:22:34.957" starttime="20190805 15:22:34.957"></status>
+</kw>
+<status status="PASS" endtime="20190805 15:22:34.957" starttime="20190805 15:22:34.625"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="TestSuite1" pass="1">TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190805 15:22:34.610" level="WARN">Collapsing consecutive whitespace during parsing is deprecated. Fix ' ${Url}' in file 'C:\eclipse\Praveen\RobotProject1\test\TestSuite1.robot' on line 18.</msg>
+<msg timestamp="20190805 15:22:34.611" level="WARN">Collapsing consecutive whitespace during parsing is deprecated. Fix ' @{CREDENTIALS}' in file 'C:\eclipse\Praveen\RobotProject1\test\TestSuite1.robot' on line 20.</msg>
+<msg timestamp="20190805 15:22:34.612" level="WARN">Collapsing consecutive whitespace during parsing is deprecated. Fix ' &amp;{LoginData}' in file 'C:\eclipse\Praveen\RobotProject1\test\TestSuite1.robot' on line 22.</msg>
+</errors>
+</robot>
